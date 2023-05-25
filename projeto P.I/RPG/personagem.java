@@ -12,7 +12,7 @@ public abstract class personagem {
         this.vida = vida;
         this.maxVida = maxVida;
         this.xp = xp;
-        vida = 10;
+        vida = maxVida;
     }
 
     public abstract int ataque();
