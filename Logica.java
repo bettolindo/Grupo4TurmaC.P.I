@@ -166,7 +166,7 @@ public class Logica{
         }else if(encontros[encontro].equals("restaurador")){
             pegarRest();
         }else{
-            if(player.nivel >=10){
+            if(player.moedas >=10){
                 loja();
             }else{
                 batalhaAleatoria();
